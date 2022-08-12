@@ -1,0 +1,53 @@
+@import './reset.css';
+@import './menu.css';
+@import './home.css';
+@import './footer.css';
+@import './media.css';
+@import './toggle.css';
+:root{
+
+--logo:'Overpass', sans-serif;
+--menuLi:'Raleway', sans-serif;
+
+}
+
+body{
+	background-image: url(../img/bg/bg.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 30%;
+}
+@media (max-width: 1300px){
+	body{
+		background-position: top center;
+		background-size: 50%;
+	}
+}
+@media (max-width: 800px){
+	body{
+		background-position: top center;
+		background-size: 90%;
+	}
+}
+@media (max-width: 600px){
+	body{
+		background-position: top center;
+		background-size: 100%;
+	}
+}
+@media (max-width: 500px){
+	body{
+		background-position: center center;
+		background-size: 100% 100%;
+	}
+}
+.container{
+	padding-left: 45px;
+	padding-right: 45px;
+	max-width: 1345px;
+	margin: 0px auto;
+}
+.container-fluid{
+	max-width: 1400px;
+	margin: 0px auto;
+}

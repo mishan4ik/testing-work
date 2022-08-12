@@ -1,0 +1,151 @@
+@media (max-width: 1300px){
+	.leftSide__img>img{
+		max-width: 163px;
+		max-height: 226px;
+	}
+	.center__img>img{
+		max-height: 538px;
+		max-width: 359px;
+
+	}
+	.rightSide__img>img{
+		max-height: 162px;
+		max-width: 234px;
+		margin-top: 85%;
+
+	}
+	.leftSide__text>img{
+		max-width: 466px;
+		max-height: 83px;
+	}
+	.center__text>img{
+		max-width: 466px;
+		max-height: 83px;
+
+	}
+	.rightSide__text>img{
+		max-width: 466px;
+		max-height: 83px;
+	}
+	.home__row__text{
+		margin-top: 14%;
+	}
+	.home__row__img{
+		margin-top: -15.5%;
+	}
+
+}
+@media (max-width: 897px){
+	.leftSide__img>img{
+		max-width: 100px;
+		max-height: 226px;
+	}
+	.center__img>img{
+		max-height: 538px;
+		max-width: 300px;
+
+	}
+	.rightSide__img>img{
+		max-height: 162px;
+		max-width: 200px;
+		margin-top: 75%;
+
+	}
+	.leftSide__text>img{
+		max-width: 433px;
+		max-height: 83px;
+	}
+	.center__text>img{
+		max-width: 433px;
+		max-height: 83px;
+
+	}
+	.rightSide__text>img{
+		max-width: 433px;
+		max-height: 83px;
+	}
+	.home__row__text{
+		margin-top: 14%;
+	}
+	.home__row__img{
+		margin-top: -15.5%;
+	}
+
+}
+@media (max-width: 768px){
+	.leftSide__img>img{
+		display: none;
+	}
+	.center__img>img{
+		max-height: 538px;
+		max-width: 300px;
+
+	}
+	.rightSide__img>img{
+		display: none;
+
+	}
+	.home__row__text{
+		margin-top: 18%;
+	}
+	.home__row__img{
+		margin-top: -23.5%;
+	}
+
+}
+@media (max-width: 678px){
+	.leftSide__text img{
+		max-width: 80%;
+	}
+	.center__text img{
+		max-width: 50%;
+		margin-left: 3%;
+	}
+
+	.rightSide__text img{
+		max-width: 80%;
+		
+	}
+	.home__row__text{
+		margin-top: 18%;
+	}
+	.home__row__img{
+		margin-top: -23.5%;
+	}
+	.nav__menu>ul>li>a{
+		font-size: 10px;
+		line-height: 8px;
+	}
+
+}
+@media (max-width: 600px){
+	.home__row__img{
+		margin-top: -23%;
+	}
+	.home__row__text{
+		margin-top: 30%;
+	}
+	
+
+}
+@media (max-width: 500px){
+	#nav-menu{
+		display: none;
+	}
+	.home__row__text{
+		margin-top: 60%;
+	}
+	.home__row__img{
+		margin-top: -30.5%;
+	}
+	.center__img>img{
+		max-height: 538px;
+		max-width: 250px;
+
+	}
+	#list_menu{
+		align-items: right;
+	}
+
+
+}
